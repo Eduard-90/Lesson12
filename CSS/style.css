@@ -186,8 +186,6 @@ body {
 .services__btn:hover {
   color: rgb(192, 15, 15);
 }
-.girl__img {
-}
 .girl__img img {
   max-width: 572px;
   width: 100%;
@@ -333,6 +331,7 @@ form {
   text-align: center;
 }
 .form__btn {
+  box-sizing: border-box;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -348,11 +347,6 @@ form {
   line-height: 140%;
   text-align: center;
   color: rgba(27, 29, 31, 0.51);
-}
-input#form__text {
-  background-image: url(../img/user\ 4.png);
-  background-repeat: no-repeat;
-  background-position: 4px;
 }
 #form__tel {
   width: 233px;
@@ -378,4 +372,24 @@ input#form__text {
 }
 #form__submit:hover {
   color: rgb(192, 15, 15);
+}
+.form__img {
+  position: absolute;
+  bottom: 56px;
+  left: 40px;
+  border-right: 1px solid #000;
+  padding-right: 10px;
+}
+.form__img2 {
+  position: absolute;
+  bottom: 56px;
+  left: 326px;
+  border-right: 1px solid #000;
+  padding-right: 10px;
+}
+.content__img {
+  display: grid;
+  grid-template-columns: repeat(3, 280px);
+  gap: 70px;
+  margin: 90px 0 0 198px;
 }

@@ -535,7 +535,7 @@ footer {
 
 /* Mobile */
 
-@media (max-width: 600px) {
+@media (max-width: 480px) {
   /* Header */
 
   .header {
@@ -733,7 +733,7 @@ footer {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 480px) {
   .logo__text,
   .nav,
   .header__phone,
